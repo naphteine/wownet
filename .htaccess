@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Redirect errors
+ErrorDocument 400 /equipment/error.php?q=400
+ErrorDocument 401 /equipment/error.php?q=401
+ErrorDocument 403 /equipment/error.php?q=403
+ErrorDocument 404 /equipment/error.php?q=404
+ErrorDocument 405 /equipment/error.php?q=405
+ErrorDocument 408 /equipment/error.php?q=408
+ErrorDocument 414 /equipment/error.php?q=414
+ErrorDocument 500 /equipment/error.php?q=500
+ErrorDocument 502 /equipment/error.php?q=502
+ErrorDocument 504 /equipment/error.php?q=504
