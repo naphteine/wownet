@@ -26,36 +26,7 @@
 		</header>
 
 		<section>
-		<?php
-			if(!include_once("includes/db_connect.php")) {
-				header("Location: /wownet/error.php");
-			}
-
-			$data = mysqli_query($mysqli, "SELECT * FROM blogdb");
-			$array = array();
-
-			while($row = $data->fetch_assoc()) {
-				$array[] = $row;
-			}
-
-			arsort($array);
-
-			if(empty($array))
-			{
-				echo "	<div class=\"ohnein\">- NOTHING FOUND. -</div>";
-			} else {
-				foreach($array as $entry) {
-					echo "	<article class=\"blog_Post\">
-					<div class=\"blog_Date\">".$entry['upload_date']."</div>
-					<div class=\"blog_Title\">".$entry['title']."</div>
-					<div class=\"blog_Content\">
-						".$entry['content']."
-					</div>
-				</article>
-				";
-				}
-			}?>
-
+			<div class="ohnein">- THIS SERVICE IS DISABLED FOR NOW.  -</div>
 		</section>
 	</body>
 </html>

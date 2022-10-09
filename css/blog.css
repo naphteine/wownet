@@ -1,0 +1,28 @@
+article.blog_Post {
+	margin: 0px auto 50px auto;
+}
+
+div.blog_Date {
+	width: 80%;
+	color: #258;
+	margin: 0px auto auto auto;
+	white-space: pre;
+	font-size: large;
+}
+
+div.blog_Title {
+	width: 80%;
+	color: #258;
+	margin: 0px auto 5px auto;
+	white-space: pre;
+	font-size: large;
+	font-weight: bold;
+
+}
+
+div.blog_Content {
+	width: 80%;
+	color: #666;
+	margin: 0px auto 10px auto;
+	font-size: medium;
+}

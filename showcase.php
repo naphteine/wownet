@@ -16,7 +16,7 @@
 		<meta charset="UTF-8"/>
 		<link rel="shortcut icon" href="images/ico/nyan.ico"/>
 		<link rel="stylesheet" type="text/css" href="css/general.css"/>
-		<link rel="stylesheet" type="text/css" href="css/blog.css"/>
+		<link rel="stylesheet" type="text/css" href="css/showcase.css"/>
 	</head>
 
 	<body>
@@ -45,16 +45,13 @@
 				echo "	<div class=\"ohnein\">- NOTHING FOUND. -</div>";
 			} else {
 				foreach($array as $entry) {
-					echo "	<article class=\"blog_Post\">
-					<div class=\"blog_Date\">".$entry['upload_date']."</div>
-					<div class=\"blog_Title\">".$entry['title']."</div>
-					<div class=\"blog_Content\">
-						".$entry['content']."
-					</div>
-				</article>
-				";
+					echo "	<article class=\"showcase_Post\">
+					<img href=\"/images/uploads/".$entry['imgloc']."\"/>
+						</div>
+					</article>";
 				}
-			}?>
+			}
+		?>
 
 		</section>
 	</body>
