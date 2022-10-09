@@ -1,0 +1,31 @@
+body {
+	background-color: #252830;
+	color: #ACACAC;
+	font-family: Verdana;
+}
+
+header, nav {
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #99C200;
+}
+
+a:hover {
+	color: #77A200;
+}
+
+a:active {
+	color: #DA00AC;
+}
+
+hr {
+	border: 0px;
+	border-bottom: 1px dashed #666;
+	background-color: #252830;
+}

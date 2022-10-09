@@ -1,28 +1,19 @@
-article.blog_Post {
-	margin: 0px auto 50px auto;
+.blog_article {
+	padding: 3px 3px;
 }
 
-div.blog_Date {
-	width: 80%;
-	color: #258;
-	margin: 0px auto auto auto;
-	white-space: pre;
-	font-size: large;
+.blog_entry {
+	padding: 3px 3px 5px 3px;
+	border: 1px solid #47A;
 }
 
-div.blog_Title {
-	width: 80%;
-	color: #258;
-	margin: 0px auto 5px auto;
-	white-space: pre;
-	font-size: large;
-	font-weight: bold;
-
+.blog_header {
+	font-size: 16px;
+	color: #ACA;
 }
 
-div.blog_Content {
-	width: 80%;
-	color: #666;
-	margin: 0px auto 10px auto;
-	font-size: medium;
+.blog_content {
+	padding:0px 0px 0px 13px;
+	font-size: 12px;
+	color: #ACACAC;
 }

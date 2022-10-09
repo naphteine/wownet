@@ -40,20 +40,4 @@
 		}
 	}
  }
-
- function sortAsImageFromDB($table_name) {
-	$connection = mysqli_connect("localhost", "wowcat", "wow8253mpW", "wowdb");
-	$result = mysqli_query($connection, "SELECT * FROM $table_name");
-	$array = array();
-
-	while($row = $result->fetch_assoc()) {
-		$array[] = $row;
-	}
-
-	arsort($array);
-	foreach($array as $pic) {
-		echo "<a href='/imgdb/imginfo.php?q=".$pic['id']."'><img src='/imgdb/uploads/".$pic[file_name]."' width='15%' height='200'/></a>&nbsp";
-	}
-	mysqli_close($connection);
- }
 ?>
