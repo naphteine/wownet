@@ -1,6 +1,6 @@
 # Wownet
 
-This repository contains all efforts I did to create a image sharing website that run on one of my local lab machines in 2014. For this project I first used Ubuntu Server, then converted to FreeBSD. For web server I started with Apache and converted to nginx.
+This repository contains all efforts I did to create an image sharing website that run on one of my local lab machines in 2014. For this project's stack I first used Ubuntu Server, then converted to FreeBSD. For web server I started with Apache and converted to nginx. All programming done on PHP (sob)
 
 ## Warning
 
